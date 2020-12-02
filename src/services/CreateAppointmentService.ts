@@ -8,10 +8,6 @@ interface Request {
   date: Date;
 }
 
-// SoliD
-// Single Responsability Principle
-// Dependency Inversion, receive the Appointments repository to be used by multiple services
-
 class CreateAppointmentService {
   public async execute({ date, provider_id }: Request): Promise<Appointment> {
     const appointmentsRepository = getCustomRepository(AppointmentsRepository);
