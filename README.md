@@ -1,36 +1,44 @@
-# Comandos
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-```console
-yarn add express
-yarn add typescript -D
-yarn tsc --init
-```
+The project aims to build the backend to the website GoBarber using a lot of tools to build an excelent aplication, such as Jsonwebtoken, to user & routes authentication and Typeorm, to manage the Postgres database.
 
-Alterar tsconfig.json
+Take a look at the GoBarber website on the following links
+...
+...
 
-rootDir: './src'
-outDir: './dist'
+### Built With
 
-```console
-yarn add @types/express -D
-```
+* [NodeJS](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+* [Postgres](https://www.postgresql.org/)
+* [Typeorm](https://typeorm.io/#/)
+* [BcryptJS](https://www.npmjs.com/package/bcryptjs)
+* [Multer](https://www.npmjs.com/package/multer)
 
-Dera build em dist
+<!-- GETTING STARTED -->
+## Getting Started
 
-```console
-yarn tsc
-```
+To get a local copy up and running follow these simple example steps.
 
-Converte código e atualiza automaticamente como nodemon
+### Prerequisites
 
-```console
-yarn add ts-node-dev -D
-```
+This is an example of how to list things you need to use the software and how to install them.
+* yarn
+  https://yarnpkg.com/lang/en/docs/install/
 
-TranspileOnly apenas converte, não confere error no código
+### Installation
 
-"ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
-
-para configurar debug
-
---inspect
+1. Clone the repository
+   ```sh
+   git clone https://github.com/marmittfull/github-explorer.git
+   ```
+2. Install yarn packages
+   ```sh
+   yarn install
+   ```
+3. Run the following code on the project root directory
+   ```sh
+   yarn dev:server
+   ```
